@@ -46,7 +46,7 @@ Below are recommended values for the parameters:
 
 ## Run Instructions
 
-Navigate to the folder through the terminal and execute:
+Open the terminal and navigate to the folder, then execute:
 
 - `make`
 
