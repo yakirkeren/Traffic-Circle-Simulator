@@ -2,8 +2,8 @@ CC = gcc
 
 CFLAGS = -g -Wall -pthread
 
-TARGET = os_hw3
-TARGET1 = OS
+TARGET = TrafficCircle
+TARGET1 = Traffic_Circle
 
 all:	clean	$(TARGET)
 
