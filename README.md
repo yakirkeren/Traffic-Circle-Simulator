@@ -1,6 +1,6 @@
 # Traffic-Circle-Simulator
 
-This assignment is a part of the course 'Operating Systems' that includes multi-thread programming combined with mutual exclusion.
+This assignment is a part of the Operating Systems course and it includes multi-thread programming combined with mutual exclusion.
 
 ## The Task
 
