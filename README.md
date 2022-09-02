@@ -51,3 +51,8 @@ Below are recommended values for the parameters:
 
 ## Run Instructions
 
+Navigate to the folder through the terminal and execute:
+
+- `make`
+
+- `./Traffic_Circle`
