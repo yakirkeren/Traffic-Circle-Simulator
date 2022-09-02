@@ -35,19 +35,14 @@ For relaxing the demands, the snapshot does not have to be consistent. Namely, c
 - Note, that using extreme values for the parameters may yield strange results. Eg, if you generate new cars too frequently, the operating system may fail to allocate resources for opening new threads for them.
 
 Below are recommended values for the parameters:
-
-> #define N 5
-
-> #define FIN_PROB 0.1
-
-> #define MIN_INTER_ARRIVAL_IN_NS 8000000
-
-> #define MAX_INTER_ARRIVAL_IN_NS 9000000
-
-> #define INTER_MOVES_IN_NS		100000
-
-> #define SIM_TIME 2
-
+```
+#define N 5
+#define FIN_PROB 0.1
+#define MIN_INTER_ARRIVAL_IN_NS 8000000
+#define MAX_INTER_ARRIVAL_IN_NS 9000000
+#define INTER_MOVES_IN_NS 100000
+#define SIM_TIME 2
+```
 
 ## Run Instructions
 
