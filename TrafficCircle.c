@@ -180,7 +180,7 @@ int getCarID() {
     /* -----------------------------------------------------------------------------------------------------------------
      * Description: Verify only one thread increment the counter and therefore each car gets a unique id number.
      * Input:       None
-     * Return:      newID - sampled counter value when thread successfully lock the mutex and increment the counter
+     * Return:      newID - sampled counter value when thread successfully locked the mutex and increment the counter
      * -----------------------------------------------------------------------------------------------------------------
     */
 
@@ -201,8 +201,8 @@ int getCarID() {
 void* car_progress(void* car) {
     /* -----------------------------------------------------------------------------------------------------------------
      * Description: Car management thread function - generate new car in a given time interval
-     * Input:       None
-     * Return:      newID - sampled counter value while succeed to lock and increment
+     * Input:       car's memory object pointeer
+     * Return:      None
      * -----------------------------------------------------------------------------------------------------------------
     */
 
